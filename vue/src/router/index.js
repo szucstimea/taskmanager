@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Tasklist from "../views/Tasklist.vue";
+import Tasklist from "../views/TaskList.vue";
 import Login from "../views/Login.vue";
 import Register from "../views/Register.vue";
 import Home from "../views/Home.vue";
@@ -14,7 +14,7 @@ const routes = [
       name: 'Home',
       redirect: '/home',
       component: HomeLayout,
-      // meta: {isGuest: true},
+      meta: {isGuest: true},
       children: [
           {
               path: '/home',
@@ -27,7 +27,7 @@ const routes = [
               redirect: '/login',
               name: 'Auth',
               component: AuthLayout,
-              // meta: {isGuest: true},
+              meta: {isGuest: true},
               children: [
                   {
                       path: '/login',
