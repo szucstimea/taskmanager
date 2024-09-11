@@ -16,13 +16,13 @@ Try it for free!
 
 ## Requirements
 
--PHP: 8.0 or higher
--composer: dependency manager for PHP
--Node.js
--npm
--Laravel: 8.x or higher
--Vue.js: 3.x or higher
--Tailwind CSS: 3.x or higher
+-PHP: 8.0 or higher<br>
+-composer: dependency manager for PHP<br>
+-Node.js<br>
+-npm<br>
+-Laravel: 8.x or higher<br>
+-Vue.js: 3.x or higher<br>
+-Tailwind CSS: 3.x or higher<br>
 
 ## Setup commands
 (running xampp Apache and MySQL)
@@ -37,6 +37,6 @@ Try it for free!
    npm run dev (in vue folder)
 
 ## Test user is created in the database.sql:
-Full name: test
-email: test@test.hu
-Password: Test@test123
+Full name: test<br>
+email: test@test.hu<br>
+Password: Test@test123<br>
